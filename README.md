@@ -201,7 +201,7 @@ Intermediate Timer Events
 -------------------------
 Intermediate catch timer events are used to stop the process for a given time. If the timer event occurs, the process proceeds. The implementation is very similar to boundary timer events:
 
-	exports.MyTimeout$getTimeout = function(data, done) {
+	exports.Intermediate_Catch_Timer_Event$getTimeout = function(data, done) {
     	// called when arriving on "Intermediate Catch Timer Event"
 		// should return wait time in ms.
     	return 10000;
